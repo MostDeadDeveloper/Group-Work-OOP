@@ -1,4 +1,5 @@
 import java.util.Scanner;	//Import Scanner class
+
 public class AssignmentOne {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);	//Create a Scanner object
@@ -52,7 +53,7 @@ public class AssignmentOne {
 				System.out.println("Final Grade:\t\t2.75");
 			
 			if(cStanding>=60 && cStanding<=63)
-				System.out.println("Final Grade:t\t3.0");
+				System.out.println("Final Grade:\t\t3.0");
 			
 			if(cStanding>=50 && cStanding<=59)
 				System.out.println("Final Grade:\t\t4.0");
