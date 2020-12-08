@@ -1,11 +1,13 @@
 import java.util.Scanner;	//Import Scanner class
+
 /**
  * Group 3: BSCS 2-2 Object Oriented Programming
  * Members:
  * 			Iñigo, Cherrieanne Lontoc L.
  * 			Yusi, Ericka Mae S.
  * 			Vinas, Carl John R.
- */
+*/
+
 public class Group3_BSCS2_2Act1 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);	//Create a Scanner object
