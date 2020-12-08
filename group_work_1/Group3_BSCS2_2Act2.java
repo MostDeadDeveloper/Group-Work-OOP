@@ -7,7 +7,7 @@ import java.util.*;
  * 			Iñigo, Cherrieanne Lontoc L.
  * 			Yusi, Ericka Mae S.
  * 			Vinas, Carl John R.
- */
+*/
 
 public class Group3_BSCS2_2Act2 {
     public static void main(String[] args) {
@@ -36,10 +36,10 @@ public class Group3_BSCS2_2Act2 {
         }
 
         if (status) {
-            System.out.println("Output: Anagram");
+            System.out.println("Output: Anagram!");
         }
         else {
-            System.out.println("Output: Not Anagram");
+            System.out.println("Output: Not Anagram!");
         }
     }
 }
