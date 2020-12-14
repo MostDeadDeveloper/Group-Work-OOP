@@ -1,6 +1,13 @@
-
 import java.util.*;
 import java.lang.*;
+/**
+ * Group 3: BSCS 2-2 Object Oriented Programming
+ * Members:
+ * 			Iñigo, Cherrieanne Lontoc L.
+ * 			Yusi, Ericka Mae S.
+ * 			Vinas, Carl John R.
+*/
+
 public class Group3_BSCS2_2Act3 {
     public static void ConvertToMoney(int value) {
         int[] VALUES = {1000, 500, 100, 50, 20, 10, 5, 1};
