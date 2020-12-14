@@ -3,9 +3,9 @@ import java.lang.*;
 /**
  * Group 3: BSCS 2-2 Object Oriented Programming
  * Members:
- * 			Iñigo, Cherrieanne Lontoc L.
- * 			Yusi, Ericka Mae S.
- * 			Vinas, Carl John R.
+ *          Iñigo, Cherrieanne Lontoc L.
+ *          Yusi, Ericka Mae S.
+ *          Vinas, Carl John R.
 */
 
 public class Group3_BSCS2_2Act3 {
@@ -18,9 +18,9 @@ public class Group3_BSCS2_2Act3 {
 
             value = value - (possibleVals* VALUES[increment]);
 
-			if (possibleVals > 0) {
-				System.out.println(VALUES[increment] + " - " + possibleVals);
-			}
+            if (possibleVals > 0) {
+                System.out.println(VALUES[increment] + " - " + possibleVals);
+            }
 
             increment++;
         }
@@ -28,11 +28,15 @@ public class Group3_BSCS2_2Act3 {
 
     public static void main(String args[]) {
         Scanner s = new Scanner(System.in);
+        String repeatCondition = "N";
+        do {
+            System.out.print("Input Amount : ");
+            int input = s.nextInt();
 
-        System.out.print("Input Amount : ");
-        int input = s.nextInt();
-
-        System.out.println("Denominations: ");
-        ConvertToMoney(input);
+            System.out.println("Denominations: ");
+            ConvertToMoney(input);
+            System.out.print("Would You Like To Input Again? [y/n]: ");
+            repeatCondition = s.next();
+        }while(repeatCondition.equalsIgnoreCase("Y"));
   }
 }
